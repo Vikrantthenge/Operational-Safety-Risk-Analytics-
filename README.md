@@ -1,5 +1,7 @@
 # ✈️ Operational Safety & Risk Analytics
 
+[![View Project](https://img.shields.io/badge/View%20Project-Operational%20Safety%20%26%20Risk%20Analytics-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-)
+
 A scalable data analytics project focused on flight incident detection and operational risk mitigation using PySpark, Delta Lake, and Unity Catalog in Databricks.
 
 ---
