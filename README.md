@@ -61,8 +61,10 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ## 📎 Additional Assets
 
-- 📊 [Notebook Preview](#) *(optional: link to Databricks notebook preview or screenshot)*  
-- 🖼️ [Incident Distribution Screenshot](#) *(optional: embed image for visual impact)*
+| Asset Type | Badge |
+|------------|-------|
+| 📊 Notebook Preview | [![Notebook](https://img.shields.io/badge/View%20Notebook-spark.ipynb-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/spark.ipynb) |
+| 🖼️ Incident Distribution Screenshot | [![Screenshot](https://img.shields.io/badge/View%20Screenshot-incident_distribution.png-green)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png) |
 
 ---
 
