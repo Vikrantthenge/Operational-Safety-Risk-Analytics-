@@ -10,7 +10,6 @@ A scalable data analytics project focused on flight incident detection and opera
 - 🧠 Engineered ML classification models to detect risk triggers, improving early detection by **15%**  
 - 📦 Leveraged Unity Catalog volumes for modular data storage and Delta Lake for scalable transformation  
 - 📊 Validated incident distributions and delay patterns for operational insights  
-- 📄 [View My Resume (PDF)](https://github.com/your-username/your-repo-name/blob/main/Vikrant%20Thenge%20Data%20Analytics%20Resume%20.pdf)
 
 ---
 
@@ -37,3 +36,30 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ## 📂 Folder Structure
 # Operational-Safety-Risk-Analytics-
+
+
+---
+
+## 🚀 How to Run
+
+1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`
+2. Run `ETL_Sample_Ops.ipynb` in Databricks
+3. Output saved to `ops_data_cleaned` volume and registered as Delta table
+4. Query using SQL or visualize in dashboards
+
+---
+
+## 📎 Additional Assets
+
+- 📊 [Notebook Preview](#) *(optional: link to Databricks notebook preview or screenshot)*  
+- 🖼️ [Incident Distribution Screenshot](#) *(optional: embed image for visual impact)*
+
+---
+
+## 🙌 Acknowledgments
+
+Built with Databricks, PySpark, Delta Lake, and Unity Catalog.  
+Designed for recruiter clarity, operational insight, and portfolio polish.
+
+---
+
