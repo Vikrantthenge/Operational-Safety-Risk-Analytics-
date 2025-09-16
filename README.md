@@ -13,16 +13,16 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ---
 
-## 🧪 ETL Pipeline Summary
+# 🧩 ETL Pipeline – Databricks
 
-[CSV: sample_ops_data.csv]
-           ↓
-    [Extract → PySpark Read]
-           ↓
-[Transform → incident_type cleanup
-         + delay_flag logic]
-           ↓
-[Load → Delta Table: sample_ops_data_cleaned]
+**[CSV: `sample_ops_data.csv`]**  
+⬇️  
+**[Extract → PySpark Read]**  
+⬇️  
+**[Transform → `incident_type` cleanup + `delay_flag` logic]**  
+⬇️  
+**[Load → Delta Table: `sample_ops_data_cleaned`]**
+
 
 
 ### ✈️ Sample Ops ETL Pipeline Summary
