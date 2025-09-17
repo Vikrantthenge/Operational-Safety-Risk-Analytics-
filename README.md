@@ -66,6 +66,9 @@ A scalable data analytics project focused on flight incident detection and opera
 ![ML Module](https://img.shields.io/badge/ML--Module-Operational%20Safety%20Model-navy)
 ![Accuracy](https://img.shields.io/badge/Accuracy-92%25-gray)
 
+### 📈 ML Evaluation Snapshot
+![Classification Report – Operational Safety ML](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
+
 ---
 
 ## 📂 Folder Structure
