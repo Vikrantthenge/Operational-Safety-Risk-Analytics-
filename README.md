@@ -77,11 +77,11 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ## 🚀 How to Run
 
-1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`
-2. Run `ETL_Sample_Ops.ipynb` in Databricks
-3. Output saved to `ops_data_cleaned` volume and registered as Delta table
-4. Run `CrewOps_Risk_Model_Databricks.ipynb` to train and evaluate ML model
-5. Save predictions to Delta table or visualize using Databricks SQL
+1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`  
+2. Run `ETL_Ops.ipynb` in Databricks to clean and transform the data  
+3. Output saved to `ops_data_cleaned` volume and registered as Delta table  
+4. Run `Operational_Safety_ML_Module.ipynb` to train and evaluate the ML model  
+5. Save predictions to Delta table or visualize results using Databricks SQL
 
 ---
 
