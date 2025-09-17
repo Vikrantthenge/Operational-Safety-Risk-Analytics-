@@ -69,7 +69,6 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ## 📂 Folder Structure
 
-
 ---
 
 ## 🚀 How to Run
@@ -84,12 +83,15 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ## 📎 Additional Assets
 
+## 📎 Additional Assets
+
 | Asset Type | Badge |
 |------------|-------|
-| 📊 ETL Notebook | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Sample_Ops.ipynb-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Sample_Ops.ipynb) |
-| 🧠 ML Notebook | [![Notebook](https://img.shields.io/badge/View%20Notebook-CrewOps_Risk_Model_Databricks.ipynb-orange)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/CrewOps_Risk_Model_Databricks.ipynb) |
+| 📊 ETL Notebook (Sample) | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Sample_Ops.ipynb-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Sample_Ops.ipynb) |
+| 📊 ETL Notebook (Full Ops) | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Ops.ipynb-navy)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Ops.ipynb) |
+| 🧠 ML Notebook (CrewOps) | [![Notebook](https://img.shields.io/badge/View%20Notebook-CrewOps_Risk_Model_Databricks.ipynb-orange)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/CrewOps_Risk_Model_Databricks.ipynb) |
+| 🧠 ML Notebook (Ops Safety) | [![Notebook](https://img.shields.io/badge/View%20Notebook-Operational_Safety_ML_Module.ipynb-red)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/Operational_Safety_ML_Module.ipynb) |
 | 🖼️ Incident Distribution Screenshot | [![Screenshot](https://img.shields.io/badge/View%20Screenshot-incident_distribution.png-green)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png) |
-
 ---
 
 ## 🙌 Acknowledgments
