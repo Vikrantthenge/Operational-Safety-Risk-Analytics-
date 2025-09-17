@@ -8,10 +8,26 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ## 📌 Project Highlights
 
-- 🛠️ Automated ETL pipelines processing **50,000+ rows** of flight incident data across **5+ years**
-- 🧠 ML classification models to detect risk triggers, improving early detection by **15%**
-- 📦 Modular storage via Unity Catalog volumes; scalable transformation using Delta Lake
+- 🛠️ Designed and deployed automated ETL pipelines on **Databricks** using **PySpark** and **Delta Lake**, processing **50,000+ rows** of flight incident data across **5+ years**
+- 🧠 Built machine learning models in **Databricks notebooks** to detect operational risk triggers, improving early detection by **15%**
+- 📦 Modular storage via **Unity Catalog volumes**; scalable transformation using **Delta Lake**
 - 📊 Validated incident distributions and delay patterns for actionable operational insights
+
+---
+
+## 🧱 Platform Stack
+
+| Component        | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| 🧠 **Databricks**       | Unified workspace for ETL, ML modeling, and Delta Lake transformations       |
+| 📦 **Unity Catalog**    | Modular volume access, table registration, and data governance               |
+| 🔄 **Delta Lake**       | Scalable data storage and transformation layer for managed tables            |
+| ⚙️ **PySpark & pandas** | Data wrangling, feature engineering, and transformation logic                |
+| 📊 **scikit-learn**     | ML model development, evaluation, and risk flag prediction                   |
+
+![Platform](https://img.shields.io/badge/Built%20on-Databricks-navy)
+![Storage](https://img.shields.io/badge/Data%20Layer-Delta%20Lake-gray)
+![Governance](https://img.shields.io/badge/Volume%20Access-Unity%20Catalog-blue)
 
 ---
 
@@ -67,9 +83,11 @@ A scalable data analytics project focused on flight incident detection and opera
 ![Accuracy](https://img.shields.io/badge/Accuracy-92%25-gray)
 
 ### 📈 ML Evaluation Snapshot
+
 ![Classification Report – Operational Safety ML](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
 
 ---
+
 ## 🚀 How to Run
 
 1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`  
@@ -87,10 +105,10 @@ A scalable data analytics project focused on flight incident detection and opera
 | 📊 ETL Notebook (Full Ops) | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Ops.ipynb-navy)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Ops.ipynb) |
 | 🧠 ML Notebook (Ops Safety) | [![Notebook](https://img.shields.io/badge/View%20Notebook-Operational_Safety_ML_Module.ipynb-red)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/Operational_Safety_ML_Module.ipynb) |
 | 🖼️ Incident Distribution Screenshot | [![Screenshot](https://img.shields.io/badge/View%20Screenshot-incident_distribution.png-green)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png) |
+
 ---
 
 ## 🙌 Acknowledgments
 
 Built with **Databricks**, **PySpark**, **Delta Lake**, and **Unity Catalog**  
 Designed for **recruiter clarity**, **operational insight**, and **portfolio polish**
-
