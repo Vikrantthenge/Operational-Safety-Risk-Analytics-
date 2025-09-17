@@ -25,8 +25,6 @@ A scalable data analytics project focused on flight incident detection and opera
 ⬇️  
 **[Load → Delta Table: `sample_ops_data_cleaned`]**
 
-
-
 ### ✈️ Sample Ops ETL Pipeline Summary
 
 - 📁 **Source Volume:** `ops_data`  
@@ -46,18 +44,41 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ---
 
+## 🧠 ML-Powered Risk Detection – Databricks
+
+**[Notebook: `CrewOps_Risk_Model_Databricks.ipynb`]**  
+⬇️  
+**[Input → Cleaned Delta Table from ETL]**  
+⬇️  
+**[Model → Random Forest Classifier with `class_weight='balanced'`]**  
+⬇️  
+**[Output → Risk Flag Predictions + Evaluation Metrics]**
+
+### 🚨 ML Module Summary
+
+- 🧠 **Model Used**: Random Forest Classifier  
+- 📊 **Features**: Delay minutes, crew ID, aircraft ID, location  
+- ✅ **Accuracy**: 90% overall, with 92% recall for incident detection  
+- ⚖️ **Class Imbalance Handling**: `class_weight='balanced` (no external libraries required)  
+- 🧱 **Platform**: Built on Databricks using Python, pandas, scikit-learn  
+- 📦 **Next Step**: Save predictions to Delta table for dashboard integration
+
+![ML-Powered](https://img.shields.io/badge/ML--Powered-Risk%20Analytics-orange)
+
+---
+
 ## 📂 Folder Structure
-# Operational-Safety-Risk-Analytics-
 
 
 ---
 
 ## 🚀 How to Run
 
-1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`
-2. Run `ETL_Sample_Ops.ipynb` in Databricks
-3. Output saved to `ops_data_cleaned` volume and registered as Delta table
-4. Query using SQL or visualize in dashboards
+1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`  
+2. Run `ETL_Sample_Ops.ipynb` in Databricks  
+3. Output saved to `ops_data_cleaned` volume and registered as Delta table  
+4. Run `CrewOps_Risk_Model_Databricks.ipynb` to train and evaluate ML model  
+5. Save predictions to Delta table or visualize using Databricks SQL
 
 ---
 
@@ -65,7 +86,8 @@ A scalable data analytics project focused on flight incident detection and opera
 
 | Asset Type | Badge |
 |------------|-------|
-| 📊 Notebook Preview | [![Notebook](https://img.shields.io/badge/View%20Notebook-spark.ipynb-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/spark.ipynb) |
+| 📊 ETL Notebook | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Sample_Ops.ipynb-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Sample_Ops.ipynb) |
+| 🧠 ML Notebook | [![Notebook](https://img.shields.io/badge/View%20Notebook-CrewOps_Risk_Model_Databricks.ipynb-orange)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/CrewOps_Risk_Model_Databricks.ipynb) |
 | 🖼️ Incident Distribution Screenshot | [![Screenshot](https://img.shields.io/badge/View%20Screenshot-incident_distribution.png-green)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png) |
 
 ---
@@ -74,6 +96,4 @@ A scalable data analytics project focused on flight incident detection and opera
 
 Built with Databricks, PySpark, Delta Lake, and Unity Catalog.  
 Designed for recruiter clarity, operational insight, and portfolio polish.
-
----
 
