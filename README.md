@@ -70,8 +70,6 @@ A scalable data analytics project focused on flight incident detection and opera
 ![Classification Report – Operational Safety ML](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
 
 ---
-## 📂 Folder Structure
----
 ## 🚀 How to Run
 
 1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`  
