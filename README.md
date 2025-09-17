@@ -46,9 +46,9 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ## 🧠 ML-Powered Risk Detection – Databricks
 
-**[Notebook: `CrewOps_Risk_Model_Databricks.ipynb`]**  
+**[Notebook: `Operational_Safety_ML_Module.ipynb`]**  
 ⬇️  
-**[Input → Cleaned Delta Table from ETL]**  
+**[Input → Cleaned Delta Table from ETL_Ops pipeline]**  
 ⬇️  
 **[Model → Random Forest Classifier with `class_weight='balanced'`]**  
 ⬇️  
@@ -56,12 +56,12 @@ A scalable data analytics project focused on flight incident detection and opera
 
 ### 🚨 ML Module Summary
 
-- 🧠 **Model Used:** Random Forest Classifier
-- 📊 **Features:** Delay minutes, crew ID, aircraft ID, location
-- ✅ **Accuracy:** 90% overall, with 92% recall for incident detection
-- ⚖️ **Class Imbalance Handling:** `class_weight='balanced'` (no external libraries required)
-- 🧱 **Platform:** Built on Databricks using Python, pandas, scikit-learn
-- 📦 **Next Step:** Save predictions to Delta table for dashboard integration
+- 🧠 **Model Used:** Random Forest Classifier  
+- 📊 **Features:** Delay minutes, crew ID, aircraft ID, location, incident type  
+- ✅ **Accuracy:** 90% overall, with 92% recall for incident detection  
+- ⚖️ **Class Imbalance Handling:** `class_weight='balanced'` (no external libraries required)  
+- 🧱 **Platform:** Built on Databricks using Python, pandas, scikit-learn  
+- 📦 **Next Step:** Save predictions to Delta table for dashboard integration  
 
 ![ML-Powered](https://img.shields.io/badge/ML--Powered-Risk%20Analytics-orange)
 
