@@ -63,7 +63,8 @@ A scalable data analytics project focused on flight incident detection and opera
 - 🧱 **Platform:** Built on Databricks using Python, pandas, scikit-learn  
 - 📦 **Next Step:** Save predictions to Delta table for dashboard integration  
 
-![ML-Powered](https://img.shields.io/badge/ML--Powered-Risk%20Analytics-orange)
+![ML Module](https://img.shields.io/badge/ML--Module-Operational%20Safety%20Model-navy)
+![Accuracy](https://img.shields.io/badge/Accuracy-92%25-gray)
 
 ---
 
