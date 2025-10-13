@@ -9,7 +9,7 @@ from sklearn.metrics import classification_report
 st.set_page_config(page_title="🛡️ Risk Analytics", layout="wide")
 
 # 🖼️ Header image
-st.image("assets/header.png")
+st.image("assets/header.png", use_column_width=True)
 
 # 🏷️ Title & tagline
 st.title("🛡️ OPERATIONAL SAFETY & RISK ANALYTICS")
