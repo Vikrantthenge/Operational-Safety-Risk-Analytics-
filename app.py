@@ -83,9 +83,30 @@ st.markdown("""
 <div style='text-align: center; padding: 10px 0;'>
     <h4 style='color: #004080;'>✅ Risk Sentinel – FlightOps Edition</h4>
     <p style='color: gray; font-size: 14px;'>
-        Built on <b>Databricks</b>, <b>PySpark</b>, and <b>Delta Lake</b> for scalable ETL and ML.<br>
-        Visualized using <b>Streamlit</b> for recruiter-grade clarity and operational insight.<br>
-        Designed for modular deployment, portfolio polish, and real-world impact.
+        Deployed on <b>Hugging Face Spaces</b> using <b>Streamlit</b>, powered by <b>scikit-learn</b> and <b>Plotly</b>.<br>
+        Built for recruiter-grade clarity, operational insight, and portfolio impact.<br>
+        Branded with custom logo and header for visual polish and scanability.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+# --- Signature & Contact ---
+st.markdown("""
+<div style='text-align: center; font-size: 16px;'>
+    <p><strong style='color: darkred;'>Crafted with precision. Powered by data. Designed for impact.</strong></p>
+    <p>
+        <a href='https://github.com/vikrantthenge' target='_blank'>
+            <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' width='20' style='vertical-align:middle;' />
+            <span style='margin-left:8px;'>GitHub</span>
+        </a> &nbsp;&nbsp;&nbsp;
+        <a href='https://linkedin.com/in/vthenge' target='_blank'>
+            <img src='https://cdn-icons-png.flaticon.com/512/174/174857.png' width='20' style='vertical-align:middle;' />
+            <span style='margin-left:8px;'>LinkedIn</span>
+        </a> &nbsp;&nbsp;&nbsp;
+        <a href='mailto:vikrantthenge@outlook.com'>
+            <img src='https://cdn-icons-png.flaticon.com/512/732/732223.png' width='20' style='vertical-align:middle;' />
+            <span style='margin-left:8px;'>Outlook</span>
+        </a>
     </p>
 </div>
 """, unsafe_allow_html=True)
