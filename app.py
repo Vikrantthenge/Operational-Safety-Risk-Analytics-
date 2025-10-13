@@ -6,7 +6,11 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import classification_report
 
 # 🎨 Page config
-st.set_page_config(page_title="🛡️ Risk Analytics", layout="wide")
+st.set_page_config(
+    page_title="🛡️ Operational Safety & Risk Analytics",
+    page_icon="📊",
+    layout="centered"  # Changed from "wi" to "centered"
+)
 
 # 🖼️ Header image
 st.image("assets/header.png", use_column_width=True)
