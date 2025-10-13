@@ -76,3 +76,16 @@ st.download_button(
     file_name="risk_report.csv",
     mime="text/csv"
 )
+
+# --- App Summary ---
+st.markdown("---")
+st.markdown("""
+<div style='text-align: center; padding: 10px 0;'>
+    <h4 style='color: #004080;'>✅ Risk Sentinel – FlightOps Edition</h4>
+    <p style='color: gray; font-size: 14px;'>
+        Built on <b>Databricks</b>, <b>PySpark</b>, and <b>Delta Lake</b> for scalable ETL and ML.<br>
+        Visualized using <b>Streamlit</b> for recruiter-grade clarity and operational insight.<br>
+        Designed for modular deployment, portfolio polish, and real-world impact.
+    </p>
+</div>
+""", unsafe_allow_html=True)
