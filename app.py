@@ -93,7 +93,7 @@ st.markdown("""
 # --- Signature & Contact ---
 st.markdown("""
 <div style='text-align: center; font-size: 16px;'>
-    <p><strong style='color: darkred;'>Crafted with precision. Powered by data. Designed for impact.</strong></p>
+    <p><strong style='color: darkred;'>Where safety meets strategy. Where data drives action..</strong></p>
     <p>
         <a href='https://github.com/vikrantthenge' target='_blank'>
             <img src='https://cdn-icons-png.flaticon.com/512/25/25231.png' width='20' style='vertical-align:middle;' />
