@@ -12,7 +12,7 @@ custom_blues = ["#003366", "#004080", "#0059b3", "#0073e6", "#3399ff"]
 # --- Header Bar ---
 st.markdown("""
 <div style='background-color:#004080; padding:6px; text-align:center; border-radius:5px;'>
-    <span style='color:white; font-size:16px;'> OPERATIONAL SAFETY & RISK ANALYTICS </span>
+    <span style='color:white; font-size:16px;'> RISK SENTINEL </span>
 </div>
 """, unsafe_allow_html=True)
 
