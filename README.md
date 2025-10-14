@@ -140,15 +140,6 @@ Let me know if you want to add a QR badge, animated logo, or embed a launch butt
 4. Run `Operational_Safety_ML_Module.ipynb` to train and evaluate the ML model  
 5. Save predictions to Delta table or visualize results using Databricks SQL
 
----
-
-## 📎 Additional Assets
-
-| Asset Type | Badge |
-|------------|-------|
-| 📊 ETL Notebook (Full Ops) | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Ops.ipynb-navy)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Ops.ipynb) |
-| 🧠 ML Notebook (Ops Safety) | [![Notebook](https://img.shields.io/badge/View%20Notebook-Operational_Safety_ML_Module.ipynb-red)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/Operational_Safety_ML_Module.ipynb) |
-| 🖼️ Incident Distribution Screenshot | [![Screenshot](https://img.shields.io/badge/View%20Screenshot-incident_distribution.png-green)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png) |
 
 ---
 
