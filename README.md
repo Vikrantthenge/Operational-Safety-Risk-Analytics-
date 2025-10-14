@@ -10,8 +10,6 @@
 [![PySpark](https://img.shields.io/badge/PySpark-FDEE21?logo=apache-spark&logoColor=black&style=for-the-badge)](https://spark.apache.org/)
 [![Delta Lake](https://img.shields.io/badge/Delta_Lake-00B4F0?logo=databricks&logoColor=white&style=for-the-badge)](https://delta.io/)
 [![Databricks](https://img.shields.io/badge/Databricks-EA4E3D?logo=databricks&logoColor=white&style=for-the-badge)](https://www.databricks.com/)
-[![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white&style=for-the-badge)](https://mlflow.org/)
-
 
 ### 📸 Dashboard Preview
 
