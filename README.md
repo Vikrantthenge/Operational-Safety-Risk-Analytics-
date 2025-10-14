@@ -87,6 +87,50 @@ A scalable data analytics project focused on flight incident detection and opera
 ![Classification Report – Operational Safety ML](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
 
 ---
+## 🌐 Streamlit Dashboard – Hugging Face Spaces
+
+[![Launch App](https://img.shields.io/badge/Launch%20Dashboard-Risk%20Analytics%20App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
+
+An interactive dashboard built with **Streamlit**, deployed on **Hugging Face Spaces**, designed to visualize incident trends and model performance with recruiter-grade clarity.
+
+### 🛡️ Dashboard Highlights
+
+- 📊 **Incident Distribution** by department with dynamic site filtering  
+- 📈 **Risk Score Trends** over time for selected sites  
+- 🧠 **Model Performance** snapshot with classification metrics  
+- 📥 **Downloadable Risk Report** for operational review  
+- 🎨 Branded with custom header, emoji framing, and color harmony  
+
+### ⚠️ Cold Start Notice
+
+> ⚠️ **Heads up!**  
+> If the app shows a “Zzzz” screen, it's just waking up from sleep.  
+> Click “Yes” to load — it takes only a few seconds!
+
+---
+
+### 📸 Dashboard Preview
+
+![Dashboard Screenshot](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/dashboard_preview.png?raw=true)
+
+---
+
+## 📎 Additional Assets
+
+| Asset Type | Badge |
+|------------|-------|
+| 🚀 Hugging Face App | [![App](https://img.shields.io/badge/View%20App-Risk%20Analytics-green)](https://huggingface.co/spaces/vthenge/risk-analytics) |
+| 📊 ETL Notebook (Full Ops) | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Ops.ipynb-navy)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Ops.ipynb) |
+| 🧠 ML Notebook (Ops Safety) | [![Notebook](https://img.shields.io/badge/View%20Notebook-Operational_Safety_ML_Module.ipynb-red)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/Operational_Safety_ML_Module.ipynb) |
+| 🖼️ Incident Distribution Screenshot | [![Screenshot](https://img.shields.io/badge/View%20Screenshot-incident_distribution.png-green)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png) |
+
+---
+
+> **“Where safety meets strategy. Where data drives action.”**
+
+---
+
+Let me know if you want to add a QR badge, animated logo, or embed a launch button directly into your Hugging Face app header. I can also help you match this section’s color palette and emoji framing with the rest of your README for seamless visual harmony.
 
 ## 🚀 How to Run
 
