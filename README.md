@@ -6,6 +6,8 @@
 
 [![Launch App](https://img.shields.io/badge/Launch%20Dashboard-Risk%20Analytics%20App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
 
+[![🚨 Risk Analytics – Launch Space](https://img.shields.io/badge/🚨_Risk_Analytics-black?logo=python&logoColor=darkred&style=for-the-badge)](https://huggingface.co/spaces/vthenge/risk-analytics)
+
 A scalable data analytics project focused on flight incident detection and operational risk mitigation using **PySpark**, **Delta Lake**, and **Unity Catalog** in **Databricks**.
 
 ---
