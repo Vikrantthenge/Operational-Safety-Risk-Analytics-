@@ -13,9 +13,6 @@
 [![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white&style=for-the-badge)](https://mlflow.org/)  
 [![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)](https://streamlit.io/)
 
-### 📸 Dashboard Preview
-
-
 
 ### 📸 Dashboard Preview
 
