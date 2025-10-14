@@ -1,12 +1,26 @@
-# ✈️ Operational Safety & Risk Analytics
+# ✈️ Operational Safety & Risk Analytics  
+**FlightOps Edition – Built for Risk Detection, ETL Automation, and Recruiter Clarity**
 
+[![🚨 Risk Analytics – Launch Space](https://img.shields.io/badge/🚨_Risk_Analytics-black?logo=python&logoColor=darkred&style=for-the-badge)](https://huggingface.co/spaces/vthenge/risk-analytics)  
 [![View Project](https://img.shields.io/badge/View%20Project-Operational%20Safety%20%26%20Risk%20Analytics-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-)
+
+### 🔧 Tech Stack  
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org/)  
+[![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white&style=for-the-badge)](https://www.postgresql.org/)  
+[![PySpark](https://img.shields.io/badge/PySpark-FDEE21?logo=apache-spark&logoColor=black&style=for-the-badge)](https://spark.apache.org/)  
+[![Delta Lake](https://img.shields.io/badge/Delta_Lake-00B4F0?logo=databricks&logoColor=white&style=for-the-badge)](https://delta.io/)  
+[![Databricks](https://img.shields.io/badge/Databricks-EA4E3D?logo=databricks&logoColor=white&style=for-the-badge)](https://www.databricks.com/)  
+[![MLflow](https://img.shields.io/badge/MLflow-0194E2?logo=mlflow&logoColor=white&style=for-the-badge)](https://mlflow.org/)  
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)](https://streamlit.io/)
+
+### 📸 Dashboard Preview
+
+
 
 ### 📸 Dashboard Preview
 
 [![Launch App](https://img.shields.io/badge/Launch%20Dashboard-Risk%20Analytics%20App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
 
-[![🚨 Risk Analytics – Launch Space](https://img.shields.io/badge/🚨_Risk_Analytics-black?logo=python&logoColor=darkred&style=for-the-badge)](https://huggingface.co/spaces/vthenge/risk-analytics)
 
 A scalable data analytics project focused on flight incident detection and operational risk mitigation using **PySpark**, **Delta Lake**, and **Unity Catalog** in **Databricks**.
 
