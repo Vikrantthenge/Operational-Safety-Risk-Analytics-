@@ -4,8 +4,7 @@
 [![Launch App](https://img.shields.io/badge/Launch%20Dashboard-Risk%20Analytics%20App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
 [![View Project](https://img.shields.io/badge/View%20Project-Operational%20Safety%20%26%20Risk%20Analytics-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-)
 
-[![Sentiment Analyzer](https://img.shields.io/badge/Sentiment%20Analyzer--crimson?logo=streamlit)](https://sentiment-analyzer-vikrant.streamlit.app)
-
+https://huggingface.co/spaces/vthenge/risk-analytics
 
 ### 🔧 Tech Stack  
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org/)
