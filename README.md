@@ -7,10 +7,8 @@ Forecasting • KPI Ownership • Capacity Planning • Automation • Python �
 [![View Full Portfolio](https://img.shields.io/badge/View%20Full%20Portfolio-Decision%20Analytics%20%26%20Architecture-blue?style=for-the-badge)](https://github.com/Vikrantthenge/vikrant-portfolio/blob/main/README.md)
 
 
-
-
 I build **decision-grade analytics systems** that replace reactive reporting with  
-**forecasting models, KPI frameworks, and risk indicators** leaders use to plan, prioritize, and act.
+**forecasting models, KPI governance, and early risk signals** leaders use to plan, prioritize, and act.
 
 
 ⚠️ **Note:** If any Streamlit app shows a sleep message due to inactivity, click  
@@ -156,7 +154,8 @@ This dashboard is designed for **weekly/monthly leadership reviews**, not explor
 - Enabled **early risk visibility** instead of post-incident reporting  
 - Reduced manual analysis through automated pipelines  
 - Created **repeatable analytics assets**, not one-off reports  
-- Demonstrated end-to-end ownership: data → model → decision  
+- Demonstrated end-to-end ownership: data → model → decision
+- Designed analytics assets for repeatable adoption across teams, not one-off analysis
 
 
 ---
