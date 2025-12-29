@@ -2,6 +2,12 @@
 ### Senior Analytics Manager | Decision Analytics & Planning  
 ### Forecasting • KPI Ownership • Capacity Planning • Automation • Python • SQL • Power BI  
 
+### Senior Analytics Manager | Decision Analytics & Planning  
+Forecasting • KPI Ownership • Capacity Planning • Automation • Python • SQL • Power BI
+
+[![View Full Portfolio](https://img.shields.io/badge/View%20Full%20Portfolio-Decision%20Analytics%20%26%20Architecture-blue?style=for-the-badge)](https://github.com/Vikrantthenge/vikrant-portfolio/blob/main/README.md)
+
+
 > I build **decision-grade analytics systems** that replace reactive reporting with  
 > **forecasting models, KPI frameworks, and risk indicators** leaders use to plan, prioritize, and act.
 
@@ -149,12 +155,6 @@ This dashboard is designed for **weekly/monthly leadership reviews**, not explor
 - Created **repeatable analytics assets**, not one-off reports  
 - Demonstrated end-to-end ownership: data → model → decision  
 
----
-
-## 📄 Resume
-
-📥 **Download Resume (PDF)**  
-https://github.com/Vikrantthenge/vikrant-portfolio/blob/main/Vikrant_Thenge_Analytics_Manager.pdf
 
 ---
 
