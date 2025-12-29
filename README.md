@@ -8,11 +8,14 @@ Forecasting • KPI Ownership • Capacity Planning • Automation • Python �
 [![View Full Portfolio](https://img.shields.io/badge/View%20Full%20Portfolio-Decision%20Analytics%20%26%20Architecture-blue?style=for-the-badge)](https://github.com/Vikrantthenge/vikrant-portfolio/blob/main/README.md)
 
 
-> I build **decision-grade analytics systems** that replace reactive reporting with  
-> **forecasting models, KPI frameworks, and risk indicators** leaders use to plan, prioritize, and act.
 
-> ⚠️ **Note:** If any Streamlit app shows a sleep message due to inactivity, click  
-> **“Yes, get this app back up!”** — it wakes up in a few seconds.
+I build **decision-grade analytics systems** that replace reactive reporting with  
+**forecasting models, KPI frameworks, and risk indicators** leaders use to plan, prioritize, and act.
+
+
+⚠️ **Note:** If any Streamlit app shows a sleep message due to inactivity, click  
+**“Yes, get this app back up!”** — it wakes up in a few seconds.
+
 
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
