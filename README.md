@@ -45,16 +45,15 @@ It mirrors **real-world analytics ownership** — not dashboards for demos, but 
 
 ## 🧱 Architecture Overview
 
-Raw Ops Data (CSV)
-↓
-Databricks ETL (PySpark)
-↓
-Delta Lake Tables (Governed)
-↓
-Risk Scoring & ML Models
-↓
-Decision-Ready Dashboards (Streamlit)
-
+**Raw Ops Data (CSV)**  
+↓  
+**Databricks ETL (PySpark)**  
+↓  
+**Delta Lake Tables (Governed)**  
+↓  
+**Risk Scoring & ML Models**  
+↓  
+**Decision-Ready Dashboards (Streamlit)**
 
 
 ---
