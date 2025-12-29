@@ -103,9 +103,20 @@ A scalable data analytics project focused on flight incident detection and opera
 ![Classification Report – Operational Safety ML](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
 
 ---
-## 🌐 Streamlit Dashboard – Hugging Face Spaces
+## 🔥 Operational Safety & Risk Analytics
+**Risk Scoring • KPI Frameworks • Python • Streamlit**
 
-[![Launch App](https://img.shields.io/badge/Launch%20Dashboard-Risk%20Analytics%20App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
+Interactive analytics dashboard identifying high-risk operational patterns and performance gaps.
+
+🚀 **Live Interactive Dashboard:**  
+👉 https://huggingface.co/spaces/vthenge/risk-analytics
+
+
+**What this shows**
+- Risk scoring across operational dimensions  
+- KPI-driven visibility into safety and performance gaps  
+- Decision-ready views for leadership review  
+
 
 An interactive dashboard built with **Streamlit**, deployed on **Hugging Face Spaces**, designed to visualize incident trends and model performance with recruiter-grade clarity.
 
