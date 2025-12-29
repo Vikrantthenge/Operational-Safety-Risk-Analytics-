@@ -109,7 +109,7 @@ A scalable data analytics project focused on flight incident detection and opera
 Interactive analytics dashboard identifying high-risk operational patterns and performance gaps.
 
 🚀 **Live Interactive Dashboard:**  
-👉 https://huggingface.co/spaces/vthenge/risk-analytics
+[![Live App – Hugging Face](https://img.shields.io/badge/Live_App-HuggingFace-yellow?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/vthenge/risk-analytics)
 
 
 **What this shows**
