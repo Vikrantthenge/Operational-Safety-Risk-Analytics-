@@ -1,176 +1,175 @@
 # ✈️ Operational Safety & Risk Analytics  
-**FlightOps Edition – Built for Risk Detection, ETL Automation, and Recruiter Clarity**
+**Production-Style Analytics System for Leadership Risk Decisions**
 
-[![Launch App](https://img.shields.io/badge/Launch%20Dashboard-Risk%20Analytics%20App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
-[![View Project](https://img.shields.io/badge/View%20Project-Operational%20Safety%20%26%20Risk%20Analytics-blue)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-)
+A real-world operational analytics system built to detect risk patterns, automate ETL pipelines, and deliver **decision-ready insights** for leadership teams.
 
-[![Risk Analytics](https://img.shields.io/badge/Risk%20Analytics--crimson?logo=huggingface)](https://huggingface.co/spaces/vthenge/risk-analytics)
+This project demonstrates how operational data moves from  
+**raw ingestion → governed transformation → risk indicators → executive dashboards**,  
+using enterprise-grade tools and design patterns.
 
-### 🔧 Tech Stack  
+**What this project proves**
+- Ownership of **end-to-end analytics delivery**, not isolated modeling
+- Design of **KPI frameworks and risk indicators** used in leadership reviews
+- Automation that replaces **manual MIS and reactive reporting**
+- Comfort with **enterprise platforms and data governance**
+
+🚀 **Live Interactive Dashboard (Hugging Face):**  
+[![Live App – Hugging Face](https://img.shields.io/badge/Live_App-HuggingFace-yellow?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/vthenge/risk-analytics)
+
+> ⚠️ If the app shows a sleep screen, click **“Yes, get this app back up!”** — it takes only a few seconds.
+
+---
+
+## 🔧 Technology Stack
+
 [![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white&style=for-the-badge)](https://www.python.org/)
 [![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white&style=for-the-badge)](https://www.postgresql.org/)
 [![PySpark](https://img.shields.io/badge/PySpark-FDEE21?logo=apache-spark&logoColor=black&style=for-the-badge)](https://spark.apache.org/)
-[![Delta Lake](https://img.shields.io/badge/Delta_Lake-00B4F0?logo=databricks&logoColor=white&style=for-the-badge)](https://delta.io/)
 [![Databricks](https://img.shields.io/badge/Databricks-EA4E3D?logo=databricks&logoColor=white&style=for-the-badge)](https://www.databricks.com/)
-
-### 📸 Dashboard Preview
-
-[![Launch App](https://img.shields.io/badge/Launch%20Dashboard-Risk%20Analytics%20App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
-
-
-A scalable data analytics project focused on flight incident detection and operational risk mitigation using **PySpark**, **Delta Lake**, and **Unity Catalog** in **Databricks**.
+[![Delta Lake](https://img.shields.io/badge/Delta_Lake-00B4F0?logo=databricks&logoColor=white&style=for-the-badge)](https://delta.io/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white&style=for-the-badge)](https://streamlit.io/)
 
 ---
 
-## 📌 Project Highlights
+## 📌 Project Context
 
-- 🛠️ Designed and deployed automated ETL pipelines on **Databricks** using **PySpark** and **Delta Lake**, processing **50,000+ rows** of flight incident data across **5+ years**
-- 🧠 Built machine learning models in **Databricks notebooks** to detect operational risk triggers, improving early detection by **15%**
-- 📦 Modular storage via **Unity Catalog volumes**; scalable transformation using **Delta Lake**
-- 📊 Validated incident distributions and delay patterns for actionable operational insights
+Operational safety data is often:
+- fragmented across systems  
+- reviewed reactively  
+- reported manually with limited foresight  
 
----
+This project restructures that reality by creating a **single analytics flow** that:
+- standardizes operational data  
+- surfaces risk early  
+- supports structured leadership reviews  
 
-## 🧱 Platform Stack
-
-| Component        | Description                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| 🧠 **Databricks**       | Unified workspace for ETL, ML modeling, and Delta Lake transformations       |
-| 📦 **Unity Catalog**    | Modular volume access, table registration, and data governance               |
-| 🔄 **Delta Lake**       | Scalable data storage and transformation layer for managed tables            |
-| ⚙️ **PySpark & pandas** | Data wrangling, feature engineering, and transformation logic                |
-| 📊 **scikit-learn**     | ML model development, evaluation, and risk flag prediction                   |
-
-![Platform](https://img.shields.io/badge/Built%20on-Databricks-navy)
-![Storage](https://img.shields.io/badge/Data%20Layer-Delta%20Lake-gray)
-![Governance](https://img.shields.io/badge/Volume%20Access-Unity%20Catalog-blue)
+The outcome is **faster decisions, better prioritization, and reduced operational risk**.
 
 ---
 
-# 🧩 ETL Pipeline – Databricks
+## 🧩 End-to-End Analytics Flow
 
-**[CSV: `sample_ops_data.csv`]**  
+**CSV Source Data (5+ years)**  
 ⬇️  
-**[Extract → PySpark Read]**  
+**PySpark ETL on Databricks**  
 ⬇️  
-**[Transform → `incident_type` cleanup + `delay_flag` logic]**  
+**Delta Lake (governed, query-ready tables)**  
 ⬇️  
-**[Load → Delta Table: `sample_ops_data_cleaned`]**
-
-### ✈️ Sample Ops ETL Pipeline Summary
-
-- 📁 **Source Volume:** `ops_data`
-- 🧪 **Transformations:**
-  - Null/blank `incident_type` → `"None"`
-  - `delay_flag`: `"Delayed"` if `delay_minutes` > 0, else `"On time"`
-- 🧠 **Format:** Delta Lake (Managed Table via `saveAsTable`)
-- 🔗 **Registered Table:** `etl-pipeline.default.sample_ops_data_cleaned`
-- ✅ **CSV Verified:** `sample_ops_data.csv` (50,000 rows)
-- 📊 **Incident Distribution:**
-  - Crew Shortage: 8,432  
-  - Technical Fault: 8,315  
-  - ATC Delay: 8,281  
-  - Weather: 8,278  
-  - Bird Strike: 8,402  
-  - None: 8,144
-
----
-
-## 🧠 ML-Powered Risk Detection – Databricks
-
-**[Notebook: `Operational_Safety_ML_Module.ipynb`]**  
+**Risk Indicators & ML-based risk flags**  
 ⬇️  
-**[Input → Cleaned Delta Table from ETL_Ops pipeline]**  
-⬇️  
-**[Model → Random Forest Classifier with `class_weight='balanced'`]**  
-⬇️  
-**[Output → Risk Flag Predictions + Evaluation Metrics]**
-
-### 🚨 ML Module Summary
-
-- 🧠 **Model Used:** Random Forest Classifier  
-- 📊 **Features:** Delay minutes, crew ID, aircraft ID, location, incident type  
-- ✅ **Accuracy:** 90% overall, with 92% recall for incident detection  
-- ⚖️ **Class Imbalance Handling:** `class_weight='balanced'` (no external libraries required)  
-- 🧱 **Platform:** Built on Databricks using Python, pandas, scikit-learn  
-- 📦 **Next Step:** Save predictions to Delta table for dashboard integration  
-
-![ML Module](https://img.shields.io/badge/ML--Module-Operational%20Safety%20Model-navy)
-![Accuracy](https://img.shields.io/badge/Accuracy-92%25-gray)
-
-### 📈 ML Evaluation Snapshot
-
-![Classification Report – Operational Safety ML](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
-
----
-## 🔥 Operational Safety & Risk Analytics
-**Risk Scoring • KPI Frameworks • Python • Streamlit**
-
-Interactive analytics dashboard identifying high-risk operational patterns and performance gaps.
-
-🚀 **Live Interactive Dashboard:**  
-[![Live App – Hugging Face](https://img.shields.io/badge/Live_App-HuggingFace-yellow?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/vthenge/risk-analytics)
-
-
-**What this shows**
-- Risk scoring across operational dimensions  
-- KPI-driven visibility into safety and performance gaps  
-- Decision-ready views for leadership review  
-
-
-An interactive dashboard built with **Streamlit**, deployed on **Hugging Face Spaces**, designed to visualize incident trends and model performance with recruiter-grade clarity.
-
-### 🛡️ Dashboard Highlights
-
-- 📊 **Incident Distribution** by department with dynamic site filtering  
-- 📈 **Risk Score Trends** over time for selected sites  
-- 🧠 **Model Performance** snapshot with classification metrics  
-- 📥 **Downloadable Risk Report** for operational review  
-- 🎨 Branded with custom header, emoji framing, and color harmony  
-
-### ⚠️ Cold Start Notice
-
-> ⚠️ **Heads up!**  
-> If the app shows a “Zzzz” screen, it's just waking up from sleep.  
-> Click “Yes” to load — it takes only a few seconds!
+**Interactive Streamlit Dashboard for leadership review**
 
 ---
 
-### 📸 Dashboard Preview
+## 🧱 Data Platform Design
 
-![Dashboard Screenshot](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/dashboard_preview.png?raw=true)
-
----
-
-## 📎 Additional Assets
-
-| Asset Type | Badge |
-|------------|-------|
-| 🚀 Hugging Face App | [![App](https://img.shields.io/badge/View%20App-Risk%20Analytics-green)](https://huggingface.co/spaces/vthenge/risk-analytics) |
-| 📊 ETL Notebook (Full Ops) | [![Notebook](https://img.shields.io/badge/View%20Notebook-ETL_Ops.ipynb-navy)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Ops.ipynb) |
-| 🧠 ML Notebook (Ops Safety) | [![Notebook](https://img.shields.io/badge/View%20Notebook-Operational_Safety_ML_Module.ipynb-red)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/Operational_Safety_ML_Module.ipynb) |
-| 🖼️ Incident Distribution Screenshot | [![Screenshot](https://img.shields.io/badge/View%20Screenshot-incident_distribution.png-green)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png) |
+| Layer | Purpose |
+|------|--------|
+| **Databricks** | Unified workspace for ETL, analytics, and modeling |
+| **Unity Catalog** | Data governance, table access, and volume management |
+| **Delta Lake** | Reliable, scalable storage with ACID guarantees |
+| **PySpark** | Transformation logic and feature engineering |
+| **scikit-learn** | Risk flag modeling and evaluation |
+| **Streamlit** | Decision-ready dashboard delivery |
 
 ---
 
-> **“Where safety meets strategy. Where data drives action.”**
+## 🔄 ETL Pipeline – Operational Data
+
+**Source**
+- `sample_ops_data.csv` (50,000+ rows, multi-year operational records)
+
+**Key Transformations**
+- Standardized incident types
+- Derived delay and risk flags
+- Cleaned nulls and inconsistent values
+- Converted to governed Delta tables
+
+**Output**
+- Managed Delta table registered for analytics and dashboards
+
+**Incident Distribution Snapshot**
+- Crew Shortage: ~8.4k  
+- Technical Fault: ~8.3k  
+- ATC Delay: ~8.2k  
+- Weather: ~8.2k  
+- Bird Strike: ~8.4k  
+- None: ~8.1k  
 
 ---
 
-Let me know if you want to add a QR badge, animated logo, or embed a launch button directly into your Hugging Face app header. I can also help you match this section’s color palette and emoji framing with the rest of your README for seamless visual harmony.
+## 🧠 Risk Detection Module (Analytics-Driven)
 
-## 🚀 How to Run
+This project uses modeling **as an enabler**, not the centerpiece.
 
-1. Upload `sample_ops_data.csv` to Unity Catalog volume `ops_data`  
-2. Run `ETL_Ops.ipynb` in Databricks to clean and transform the data  
-3. Output saved to `ops_data_cleaned` volume and registered as Delta table  
-4. Run `Operational_Safety_ML_Module.ipynb` to train and evaluate the ML model  
-5. Save predictions to Delta table or visualize results using Databricks SQL
+**Purpose**
+- Identify operational risk patterns earlier
+- Support prioritization and review, not academic accuracy contests
 
+**Summary**
+- Model: Random Forest (balanced classes)
+- Inputs: delay minutes, incident type, location, aircraft, crew
+- Output: risk flags for operational review
+- Recall (risk detection): ~92%
+
+📊 **Classification Report**  
+[View snapshot](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
 
 ---
 
-## 🙌 Acknowledgments
+## 📊 Decision Dashboard (Streamlit)
 
-Built with **Databricks**, **PySpark**, **Delta Lake**, and **Unity Catalog**  
-Designed for **recruiter clarity**, **operational insight**, and **portfolio polish**
+🚀 **Live Dashboard:**  
+[![Launch Dashboard](https://img.shields.io/badge/Launch_Dashboard-Risk_Analytics-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
+
+**What leadership sees**
+- Incident distribution by site and category  
+- Risk score trends over time  
+- Performance gaps and hotspots  
+- Downloadable reports for review meetings  
+
+This dashboard is built for **weekly and monthly performance discussions**, not exploratory tinkering.
+
+---
+
+## 📁 Key Assets
+
+| Asset | Link |
+|-----|-----|
+| 🚀 Live Dashboard | https://huggingface.co/spaces/vthenge/risk-analytics |
+| 📂 Full Repository | https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics- |
+| ⚙️ ETL Notebook | https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/ETL_Ops.ipynb |
+| 🧠 ML Notebook | https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/Operational_Safety_ML_Module.ipynb |
+
+---
+
+## 📊 Business Impact Demonstrated
+
+- Enabled **earlier risk visibility** through standardized indicators  
+- Replaced manual reporting with **automated analytics pipelines**  
+- Improved consistency and trust in operational data  
+- Delivered **decision-ready views** for leadership reviews  
+
+---
+
+## 🎯 Who This Project Is For
+
+This project is intentionally built for:
+- **Senior Analytics / Analytics Manager roles**
+- **Decision Analytics & Planning**
+- **Operations, Supply Chain, Safety, or Delivery Analytics**
+
+It is **not** optimized for:
+- Kaggle-style experimentation  
+- Pure research or algorithm benchmarking  
+
+---
+
+## 📄 Resume
+
+📥 **Download Resume (PDF)**  
+https://github.com/Vikrantthenge/vikrant-portfolio/blob/main/Vikrant_Thenge_Analytics_Manager.pdf
+
+---
+
+> *“Where operational data stops being reactive and starts driving decisions.”*
