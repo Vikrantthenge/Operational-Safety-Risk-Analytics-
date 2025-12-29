@@ -45,3 +45,104 @@ It mirrors **real-world analytics ownership** — not dashboards for demos, but 
 
 ## 🧱 Architecture Overview
 
+
+
+---
+
+## 🛠️ ETL Pipeline — Databricks
+
+**Source**
+- `sample_ops_data.csv`  
+- ~50,000 operational records across multiple years  
+
+**Transformations**
+- Incident type normalization  
+- Delay flag logic  
+- Data quality checks  
+- Feature preparation for ML  
+
+**Output**
+- Managed **Delta Table**
+- Registered via **Unity Catalog**
+- Ready for analytics and ML consumption  
+
+---
+
+## 🧠 ML-Powered Risk Detection
+
+- **Model:** Random Forest Classifier  
+- **Objective:** Identify high-risk operational events  
+- **Features:** Delay minutes, incident type, location, asset metadata  
+- **Accuracy:** ~90% overall  
+- **Recall (Risk Events):** ~92%  
+
+This is **not academic ML** — it’s applied modeling designed to **reduce operational surprises**.
+
+---
+
+## 🚀 Live Interactive Dashboard
+
+[![Launch Dashboard](https://img.shields.io/badge/Launch_Dashboard-Risk_Analytics_App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
+
+### What Leaders See
+- Incident distribution by category and location  
+- Risk score trends over time  
+- KPI-driven operational visibility  
+- Downloadable risk summaries for reviews  
+
+Built for **clarity, speed, and action**, not vanity visuals.
+
+---
+
+## 📊 Impact & Outcomes
+
+- Enabled **early risk detection** improving intervention readiness  
+- Standardized operational KPIs for consistent performance reviews  
+- Reduced dependency on manual incident analysis  
+- Created a reusable analytics framework for scale  
+
+---
+
+## 📎 Key Assets
+
+| Asset | Link |
+|-----|-----|
+| 🚀 Live App | https://huggingface.co/spaces/vthenge/risk-analytics |
+| 📂 GitHub Repo | https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics- |
+| 🧪 ETL Notebook | ETL_Ops.ipynb |
+| 🧠 ML Notebook | Operational_Safety_ML_Module.ipynb |
+
+---
+
+## 👔 Who This Project Is For
+
+This project is intentionally aligned to roles involving:
+
+- **Senior Analytics Manager**
+- **Decision Analytics / Planning**
+- **Operations, Supply Chain, Risk**
+- **Performance & KPI Ownership**
+
+It is **not optimized for Kaggle-style ML competitions** — it is built for **business impact**.
+
+---
+
+## 🙌 Closing Note
+
+> *“Good analytics reduce noise. Great analytics reduce risk.”*
+
+This project reflects how I approach analytics in leadership contexts:
+- Clear problem framing  
+- Governed data pipelines  
+- Decision-ready outputs  
+- Measurable business value  
+
+---
+
+### 👤 Author
+**Vikrant Thenge**  
+Senior Analytics Manager — Decision Analytics & Planning  
+
+🔗 GitHub: https://github.com/Vikrantthenge  
+🔗 LinkedIn: https://www.linkedin.com/in/vthenge  
+
