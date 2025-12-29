@@ -1,45 +1,52 @@
-# Operational Safety & Risk Analytics  
-### Senior Analytics Manager Portfolio — Decision Analytics, Planning & Risk
+# 🟥 Vikrant Thenge  
+### Senior Analytics Manager | Decision Analytics & Planning  
+### Forecasting • KPI Ownership • Capacity Planning • Automation • Python • SQL • Power BI  
 
-> ⚠️ **Note:** If the app shows a sleep or “Zzzz” message due to inactivity, click  
-> **“Yes, get this app back up!”** — it will load in a few seconds.
+> I build **decision-grade analytics systems** that replace reactive reporting with  
+> **forecasting models, KPI frameworks, and risk indicators** leaders use to plan, prioritize, and act.
 
-[![Live App](https://img.shields.io/badge/Live_App-HuggingFace-yellow?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/vthenge/risk-analytics)
-[![GitHub Repo](https://img.shields.io/badge/GitHub-View_Repository-black?logo=github)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-)
-[![Built on Databricks](https://img.shields.io/badge/Built_on-Databricks-red?logo=databricks)](https://www.databricks.com/)
-[![ETL Pipeline](https://img.shields.io/badge/Data_Pipeline-PySpark-blue?logo=apache-spark)](https://spark.apache.org/)
+> ⚠️ **Note:** If any Streamlit app shows a sleep message due to inactivity, click  
+> **“Yes, get this app back up!”** — it wakes up in a few seconds.
 
----
-
-## 👤 About This Project (Recruiter Context)
-
-This project demonstrates how **operational data is converted into decision-ready analytics** used for:
-
-- Risk detection and early warning  
-- KPI governance and performance reviews  
-- Leadership planning and operational control  
-
-It mirrors **real-world analytics ownership** — not dashboards for demos, but systems designed to support **planning, risk mitigation, and executive decisions**.
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=white)](https://www.python.org/)
+[![SQL](https://img.shields.io/badge/SQL-003B57?logo=postgresql&logoColor=white)](https://www.postgresql.org/)
+[![Power BI](https://img.shields.io/badge/PowerBI-F2C811?logo=powerbi&logoColor=black)](https://powerbi.microsoft.com/)
+[![PySpark](https://img.shields.io/badge/PySpark-FDEE21?logo=apache-spark&logoColor=black)](https://spark.apache.org/)
+[![Databricks](https://img.shields.io/badge/Databricks-EA4E3D?logo=databricks&logoColor=white)](https://www.databricks.com/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-FF4B4B?logo=streamlit&logoColor=white)](https://streamlit.io/)
+[![AWS](https://img.shields.io/badge/AWS-232F3E?logo=amazonaws&logoColor=white)](https://aws.amazon.com/)
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Spaces-yellow?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/vthenge)
 
 ---
 
-## 🎯 What This System Solves
+## 👤 About Me
 
-- Identifies **high-risk operational patterns** before escalation  
-- Replaces reactive reporting with **forward-looking risk signals**  
-- Enables **structured performance reviews** using standardized KPIs  
-- Supports leadership with **decision-grade analytics**, not raw charts  
+I am a **Senior Analytics Manager** focused on turning complex operational and business problems into:
+
+- Forecasting & scenario models  
+- KPI frameworks and performance governance  
+- Risk indicators and decision dashboards  
+- Automated analytics pipelines  
+
+My work is used in **staffing decisions, capacity planning, SLA risk mitigation, and leadership performance reviews** — not just reporting.
 
 ---
 
-## 🔧 Tech Stack (Enterprise-Oriented)
+## 🔗 Connect
 
-- **Python, SQL**
-- **PySpark** for scalable ETL
-- **Databricks** for unified analytics & ML workflows
-- **Delta Lake** for reliable, versioned storage
-- **Unity Catalog** for data governance
-- **Streamlit** deployed on **Hugging Face Spaces**
+- **GitHub:** https://github.com/Vikrantthenge  
+- **LinkedIn:** https://www.linkedin.com/in/vthenge  
+- **Email:** vikrantthenge@outlook.com  
+
+---
+
+## 📌 Pinned Project (Decision-Critical)
+
+# ✈️ Operational Safety & Risk Analytics  
+**FlightOps Edition – Risk Detection, ETL Automation, Decision Dashboards**
+
+[![Launch App](https://img.shields.io/badge/Live_Dashboard-HuggingFace-green?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/vthenge/risk-analytics)
+[![View Repo](https://img.shields.io/badge/View_Code-GitHub-blue?logo=github)](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-)
 
 ---
 
@@ -58,100 +65,99 @@ It mirrors **real-world analytics ownership** — not dashboards for demos, but 
 
 ---
 
-## 🛠️ ETL Pipeline — Databricks
 
-**Source**
-- `sample_ops_data.csv`  
-- ~50,000 operational records across multiple years  
+This project mirrors **real enterprise analytics flow**, not a toy demo.
 
-**Transformations**
-- Incident type normalization  
-- Delay flag logic  
-- Data quality checks  
-- Feature preparation for ML  
+---
 
-**Output**
-- Managed **Delta Table**
-- Registered via **Unity Catalog**
-- Ready for analytics and ML consumption  
+## 🔄 ETL & Data Engineering (Databricks)
+
+- Built automated ETL pipelines using **PySpark + Delta Lake**
+- Processed **50,000+ operational records** across multiple years
+- Standardized incident types, delay flags, and risk indicators
+- Registered governed tables using **Unity Catalog**
+
+### 📊 Incident Distribution (EDA Snapshot)
+
+This validates incident concentration and operational risk hotspots **before modeling**.
+
+![Incident Distribution](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/incident_distribution.png?raw=true)
 
 ---
 
 ## 🧠 ML-Powered Risk Detection
 
 - **Model:** Random Forest Classifier  
-- **Objective:** Identify high-risk operational events  
-- **Features:** Delay minutes, incident type, location, asset metadata  
-- **Accuracy:** ~90% overall  
-- **Recall (Risk Events):** ~92%  
+- **Objective:** Early detection of high-risk operational incidents  
+- **Class imbalance handled** using `class_weight='balanced'`  
+- Features engineered from delays, incident types, locations, and resources  
 
-This is **not academic ML** — it’s applied modeling designed to **reduce operational surprises**.
+### 📈 Model Evaluation – Classification Report
 
----
+The model was evaluated using **precision, recall, and F1-score**, ensuring reliable risk detection for decision use.
 
-## 🚀 Live Interactive Dashboard
+![Classification Report](https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics-/blob/main/classification_report.png?raw=true)
 
-[![Launch Dashboard](https://img.shields.io/badge/Launch_Dashboard-Risk_Analytics_App-green)](https://huggingface.co/spaces/vthenge/risk-analytics)
-
-### What Leaders See
-- Incident distribution by category and location  
-- Risk score trends over time  
-- KPI-driven operational visibility  
-- Downloadable risk summaries for reviews  
-
-Built for **clarity, speed, and action**, not vanity visuals.
+**Key Outcome**
+- ~90% overall accuracy  
+- ~92% recall for incident risk detection  
 
 ---
 
-## 📊 Impact & Outcomes
+## 📊 Decision Dashboard (Streamlit)
 
-- Enabled **early risk detection** improving intervention readiness  
-- Standardized operational KPIs for consistent performance reviews  
-- Reduced dependency on manual incident analysis  
-- Created a reusable analytics framework for scale  
+[![Launch Dashboard](https://img.shields.io/badge/Launch_Dashboard-HuggingFace-success?logo=huggingface&logoColor=black)](https://huggingface.co/spaces/vthenge/risk-analytics)
 
----
+**What leaders see**
+- Incident trends by location and category  
+- Risk score distributions  
+- Performance gaps and bottlenecks  
+- Downloadable risk summaries for review  
 
-## 📎 Key Assets
-
-| Asset | Link |
-|-----|-----|
-| 🚀 Live App | https://huggingface.co/spaces/vthenge/risk-analytics |
-| 📂 GitHub Repo | https://github.com/Vikrantthenge/Operational-Safety-Risk-Analytics- |
-| 🧪 ETL Notebook | ETL_Ops.ipynb |
-| 🧠 ML Notebook | Operational_Safety_ML_Module.ipynb |
+This dashboard is designed for **weekly/monthly leadership reviews**, not exploration.
 
 ---
 
-## 👔 Who This Project Is For
+## 🛠 Core Capabilities Demonstrated
 
-This project is intentionally aligned to roles involving:
-
-- **Senior Analytics Manager**
-- **Decision Analytics / Planning**
-- **Operations, Supply Chain, Risk**
-- **Performance & KPI Ownership**
-
-It is **not optimized for Kaggle-style ML competitions** — it is built for **business impact**.
-
----
-
-## 🙌 Closing Note
-
-> *“Good analytics reduce noise. Great analytics reduce risk.”*
-
-This project reflects how I approach analytics in leadership contexts:
-- Clear problem framing  
-- Governed data pipelines  
+### Decision Analytics & Planning
+- Risk scoring & early warning indicators  
+- Scenario-aware analytics  
 - Decision-ready outputs  
-- Measurable business value  
+
+### Performance Management
+- KPI frameworks  
+- SLA & operational risk visibility  
+- Standardized performance views  
+
+### Analytics Engineering
+- PySpark ETL pipelines  
+- Delta Lake storage  
+- Governed data models  
+
+### Automation & BI
+- Python & SQL automation  
+- Streamlit dashboards  
+- Leadership reporting  
 
 ---
 
-### 👤 Author
-**Vikrant Thenge**  
-Senior Analytics Manager — Decision Analytics & Planning  
+## 📊 Business Impact
 
-🔗 GitHub: https://github.com/Vikrantthenge  
-🔗 LinkedIn: https://www.linkedin.com/in/vthenge  
+- Enabled **early risk visibility** instead of post-incident reporting  
+- Reduced manual analysis through automated pipelines  
+- Created **repeatable analytics assets**, not one-off reports  
+- Demonstrated end-to-end ownership: data → model → decision  
 
+---
+
+## 📄 Resume
+
+📥 **Download Resume (PDF)**  
+https://github.com/Vikrantthenge/vikrant-portfolio/blob/main/Vikrant_Thenge_Analytics_Manager.pdf
+
+---
+
+### 🎯 Target Roles
+**Senior Analytics Manager | Analytics Manager | Decision Analytics | Planning & Performance Analytics**  
+📍 Mumbai • Pune • Bengaluru • Hybrid / Remote
